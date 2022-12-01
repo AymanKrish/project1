@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Seaweed+Script&display=swap');
+body{background-image: url(./image/plate-with-different-types-of-sushi-prepared.jpeg);
+     background-size: cover;
+
+}
+h3{
+    text-align: center;
+    color: rgb(215, 127, 12);
+    font-family: 'Lemonada', cursive;
+}
+#p1{
+    font-size: small;
+    color: rgb(254, 253, 252);
+    text-shadow: 2px 2px rgb(236, 143, 21);
+    font-family: 'Seaweed Script', cursive;
+}
+.parent{
+    height: 250px;
+    width: 700px;
+    border-radius: 3px;
+    background-color: rgb(209, 160, 69);
+    /* margin auto to align box in centre */
+    margin: auto; 
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px 10px;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.a{
+    height: 225px;
+    width: 150px;
+    background-color: rgb(254, 254, 255);
+    margin-top: 17px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 10px;
+}
+img{
+    width: 48%;
+    height: 71px;
+    margin-left: 28%;
+    opacity: 1;
+}
+#p2{
+    font-size: xx-small;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+}
+#p3{
+    font-size: xx-small;
+    font-family: 'Seaweed Script', cursive;
+    text-align: center;
+}
+button{
+    color: rgb(146, 96, 36);
+    height: 15px;
+    width: 55px;
+    border-radius: 1px rgb(130, 82, 24);
+    font-size: 40%;
+    margin-left: 47px;
+}
